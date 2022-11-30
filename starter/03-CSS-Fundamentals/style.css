@@ -1,3 +1,7 @@
+body {
+  color: red;
+}
+
 h1,
 h2,
 h3,
@@ -121,4 +125,23 @@ a:hover {
 a:active {
   background-color: black;
   font-style: italic;
+}
+
+/* resolving conflicts */
+/* #copyright {
+  color: red;
+}
+.copyright {
+  color: blue;
+}
+.text {
+  color: yellow;
+}
+
+footer p {
+  color: green;
+} */
+
+nav {
+  font-size: 18px;
 }
