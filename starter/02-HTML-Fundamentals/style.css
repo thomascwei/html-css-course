@@ -1,10 +1,11 @@
 * {
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
 }
 body {
   border: 5px solid #000;
-  width: 500px;
+  width: 800px;
   margin: 50px auto;
   position: relative;
 }
@@ -14,10 +15,27 @@ h2 {
   text-transform: uppercase;
   padding: 10px;
 }
+.product-img {
+  float: left;
+  margin-right: 20px;
+}
+
+.product-info {
+  width: 243px;
+  float: left;
+  margin-right: 20px;
+  margin-top: 20px;
+}
+.product-detail {
+  width: 243px;
+  float: left;
+  margin-top: 20px;
+}
 
 .price {
   font-weight: bold;
   font-size: 25px;
+  float: left;
 }
 
 .shipping {
@@ -25,8 +43,14 @@ h2 {
   font-weight: bold;
   color: #777;
   margin-bottom: 10px;
+  margin-top: 5px;
+
+  float: right;
 }
 
+.clear-fix {
+  clear: both;
+}
 .more-info:link {
   display: inline-block;
   margin-bottom: 30px;
@@ -44,7 +68,6 @@ h2 {
 .detail-title {
   text-transform: uppercase;
   margin-bottom: 10px;
-  margin-top: 20px;
 }
 .detail-list {
   list-style: square;
