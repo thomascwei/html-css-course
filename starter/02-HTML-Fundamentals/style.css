@@ -16,41 +16,30 @@ h2 {
   padding: 10px;
 }
 .product-img {
-  float: left;
-  margin-right: 20px;
+  /* margin-right: 20px; */
 }
 
 .product-info {
-  width: 243px;
-  float: left;
-  margin-right: 20px;
+  flex: 1;
+  /* margin-right: 20px; */
   margin-top: 20px;
 }
 .product-detail {
-  width: 243px;
-  float: left;
   margin-top: 20px;
+  flex: 1;
 }
 
 .price {
   font-weight: bold;
   font-size: 25px;
-  float: left;
 }
 
 .shipping {
   text-transform: uppercase;
   font-weight: bold;
   color: #777;
-  margin-bottom: 10px;
-  margin-top: 5px;
-
-  float: right;
 }
 
-.clear-fix {
-  clear: both;
-}
 .more-info:link {
   display: inline-block;
   margin-bottom: 30px;
@@ -100,7 +89,6 @@ h2 {
   left: -30px;
   letter-spacing: 2px;
   padding: 5px;
-  display: inline-block;
 }
 
 .color {
@@ -108,8 +96,6 @@ h2 {
   width: 20px;
   height: 20px;
   margin-bottom: 0;
-  margin-right: 20px;
-  display: inline-block;
 }
 
 .color-red {
@@ -117,4 +103,21 @@ h2 {
 }
 .color-green {
   background-color: green;
+}
+
+.row {
+  display: flex;
+  align-items: flex-start;
+  /* justify-content: space-between; */
+  gap: 40px;
+}
+.color-pick {
+  display: flex;
+  gap: 20px;
+}
+
+.price-ship-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }

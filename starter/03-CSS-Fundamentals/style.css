@@ -113,17 +113,6 @@ li:last-child {
   font-style: italic;
 }
 
-.author-img {
-  float: left;
-  margin-bottom: 20px;
-}
-.author {
-  margin-left: 20px;
-  margin-bottom: 0;
-  margin-top: 10px;
-  float: left;
-}
-
 .related-author {
   font-size: 18px;
   font-weight: bold;
@@ -206,7 +195,7 @@ nav a:link {
   padding: 10px;
   display: block; */
   margin-right: 30px;
-  margin-top: 10px;
+  /* margin-top: 10px; */
   /* margin-bottom: 20px; */
   display: inline-block;
 }
@@ -245,7 +234,18 @@ h2::after {
   top: -10px;
   right: -20px;
 }
+/* FLOATS */
 
+/* .author-img {
+  float: left;
+  margin-bottom: 20px;
+}
+.author {
+  margin-left: 20px;
+  margin-bottom: 0;
+  margin-top: 10px;
+  float: left;
+}
 h1 {
   float: left;
 }
@@ -259,18 +259,60 @@ nav {
 }
 
 article {
-  /* background-color: green; */
   width: 830px;
   float: left;
 }
 
 aside {
-  /* background-color: red; */
   width: 300px;
   float: right;
 }
 
 footer {
-  /* background-color: yellow; */
   clear: both;
+} */
+
+/* FlexBox */
+.main-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.author-box {
+  display: flex;
+  align-items: center;
+  margin-bottom: 15px;
+}
+
+.author {
+  margin-bottom: 0;
+  margin-left: 15px;
+}
+
+.related-post {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+.related-title {
+  font-weight: bold;
+}
+.related-author {
+  margin-bottom: 0;
+  font-style: italic;
+  font-weight: normal;
+}
+.row {
+  display: flex;
+  gap: 75px;
+  margin-bottom: 60px;
+  align-items: flex-start;
+}
+.aside {
+  flex: 0 0 300px;
+}
+.article {
+  flex: 0 0 825px;
+  margin-bottom: 0;
 }
