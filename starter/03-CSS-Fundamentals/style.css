@@ -21,7 +21,7 @@ nav {
   font-size: 18px;
 }
 article {
-  margin-bottom: 60px;
+  /* margin-bottom: 60px; */
 }
 .main-header {
   background-color: #f7f7f7;
@@ -30,7 +30,7 @@ article {
   padding-left: 40px;
   padding-right: 40px; */
   padding: 20px 40px;
-  margin-bottom: 60px;
+  /* margin-bottom: 60px; */
   /* height: 80px; */
 }
 .post-header {
@@ -273,6 +273,7 @@ footer {
 } */
 
 /* FlexBox */
+/*
 .main-header {
   display: flex;
   align-items: center;
@@ -315,4 +316,32 @@ footer {
 .article {
   flex: 0 0 825px;
   margin-bottom: 0;
+}
+*/
+
+/* css-grid layout */
+.container {
+  display: grid;
+  grid-template-columns: 1fr 300px;
+  column-gap: 75px;
+  row-gap: 60px;
+  align-items: start;
+}
+.main-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  grid-column: 1 / -1;
+}
+.related-post {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+.article {
+}
+.aside {
+}
+.footer {
+  grid-column: 1 / -1;
 }

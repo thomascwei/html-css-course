@@ -63,16 +63,32 @@
 
       .container--2 {
         /* STARTER */
-        display: none;
+        /* display: none; */
         font-family: sans-serif;
         background-color: black;
         font-size: 40px;
         margin: 100px;
 
-        width: 1000px;
+        width: 700px;
         height: 600px;
 
         /* CSS GRID */
+        display: grid;
+        grid-template-columns: 125px 200px 125px;
+        grid-template-rows: 250px 100px;
+        gap: 50px;
+
+        /* align tracks inside container */
+        justify-content: center;
+        align-content: center;
+
+        /* align items indise cells */
+        align-items: center;
+        justify-items: center;
+      }
+      .el--3 {
+        align-self: end;
+        justify-self: end;
       }
     </style>
   </head>
