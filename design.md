@@ -54,3 +54,12 @@ SPACING SYSTEM (px)
 FONT SIZE SYSTEM (px)
 10 / 12 / 14 / 16 / 18 / 20 / 24 / 30 / 36 / 44 / 52 / 62 / 74 / 86 / 98
 ```
+
+## Choose color
+
+![](./assets/choose-color.png)
+
+[open color 挑選顏色](https://yeun.github.io/open-color/)
+
+[背景與文字顏色對比](https://coolors.co)  
+使用`contrast-checker`
