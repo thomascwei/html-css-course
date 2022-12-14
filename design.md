@@ -63,3 +63,13 @@ FONT SIZE SYSTEM (px)
 
 [背景與文字顏色對比](https://coolors.co)  
 使用`contrast-checker`
+
+## website personality
+
+![](assets/personality01.png)
+![](assets/personality02.png)
+![](assets/personality03.png)
+![](assets/personality04.png)
+![](assets/personality05.png)
+![](assets/personality06.png)
+![](assets/personality07.png)
